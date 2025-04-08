@@ -1,0 +1,409 @@
+#include<iostream>
+using namespace std;
+
+void fun3(){
+    cout<<endl<<"Comming soon Inshallaha as soon as possible";
+}
+
+void fun2(){int count=0;
+    char n;
+    int arr[5];
+cout<<endl<<"Total Marks is ::>  3"<<endl<<endl;
+
+    for(int i=1; i<=1; i++){
+    cout << " What will this print?\nint x = 10;\nprintf(\"%d %d\", x++, ++x);" << endl;
+    cout << "1) 10 11\n2) 11 11\n3) Undefined Behavior\n4) 10 10" << endl;
+    cin >> arr[i];
+    if (arr[i] == 3) {
+        cout << "Correct Answer!" << endl;
+        count++;
+    } else {
+        cout << "Wrong Answer!\nCorrect Answer is Option :> 3\nObtained marks ::> " << count;
+        break;
+    }
+    cout << "\n What is the output of this code?\nchar *p = \"hello\";\np[0] = 'H';\ncout << p;" << endl;
+    cout << "1) Hello\n2) hello\n3) Compilation error\n4) Segmentation fault" << endl;
+    cin >> arr[i];
+    if (arr[i] == 4) {
+        cout << "Correct Answer!" << endl;
+        count++; 
+    } else {
+        cout << "Wrong Answer!\nCorrect Answer is Option :> 4\nObtained marks ::> " << count;
+        break;
+    }
+    cout << "\n Predict the output:\nint a = 5;\ncout << (++a) + (a++);" << endl;
+    cout << "1) 11\n2) 12\n3) 13\n4) Undefined Behavior" << endl;
+    cin >> arr[i];
+    if (arr[i] == 4) {
+        cout << "Correct Answer!" << endl;
+        count++;
+        cout<<"Obtained marks ::> " << count<<endl;
+        cout<<"Conguralation you passed the lagend level "<<endl;
+    } else {
+        cout << "Wrong Answer!\nCorrect Answer is Option :> 4\nObtained marks ::> " << count;
+        break;;
+    }
+    }
+    if(count>=3){
+        cout<<endl<<endl<<"Are you Ready for the next round ";
+        cin>>n;
+        if(n=='y' || n=='Y')
+        fun3();
+    }
+        else{
+        cout<<endl<<"Thanks to visit us "<<endl;
+        cout<<endl<<"              Warninng !         "<<endl<<"     Obtained marks minimum 3 out of 3 then Next round Unlock "<<endl<<endl;
+        }  
+}
+void fun1(){int count=0;
+    char n;
+    int arr[5];
+cout<<endl<<"Total Marks is ::> 4"<<endl<<endl;
+
+   for(int i=1; i<=1; i++){
+    cout << "Which of the following statements is correct about the below code?" << endl;
+    cout << "Code: int *ptr = new int[5]; delete ptr;" << endl;
+    cout << "1) It will delete the memory correctly." << endl;
+    cout << "2) It will cause memory leak." << endl;
+    cout << "3) It will cause undefined behavior." << endl;
+    cout << "4) It will throw an exception." << endl;
+
+    cin >> arr[i];
+    if (arr[i] == 3) {
+        true;
+        cout << "Correct Answer!" << endl;
+        count++;
+    } else {
+        cout << "Wrong Answer!" << endl;
+        cout << "Correct Answer is Option :> 3" << endl;
+        cout << endl << "Obtained marks ::> " << count;
+        break;
+    }
+    cout << " What will be the output of the following code?" << endl;
+    cout << "int a = 10; cout << a++ + ++a;" << endl;
+    cout << "1) 21\n2) 22\n3) 23\n4) 24" << endl;
+    cin >> arr[i];
+    if (arr[i] == 3) {
+      true;
+        cout << "Correct Answer!" << endl;
+        count++;
+    } else {
+        cout << "Wrong Answer!\nCorrect Answer is Option :> 3\nObtained marks ::> " << count;
+        break;
+    }
+
+    cout << "\n What does the following pointer code print?\nint arr[] = {1, 2, 3}; cout << *(arr + 1);" << endl;
+    cout << "1) 1\n2) 2\n3) arr[0]\n4) Segmentation fault" << endl;
+    cin >> arr[i];
+    if (arr[i] == 2) {
+        true;
+        cout << "Correct Answer!" << endl;
+        count++;
+    } else {
+        cout << "Wrong Answer!\nCorrect Answer is Option :> 2\nObtained marks ::> " << count;
+    break;
+    }
+
+        cout << "\n Which of the following causes memory leak in C++?" << endl;
+        cout << "1) Using malloc\n2) Using delete without new\n3) Not using delete after new\n4) Using free with new" << endl;
+        cin >> arr[i];
+        if (arr[i] == 3) {
+            true;
+            cout << "Correct Answer!" << endl;
+            count++;
+    cout<<endl<<"Obtained marks ::>  "<<count<<endl;
+    cout<<"Congrulation You passed the 2nd Round sucessful ";
+        } else {
+            cout << "Wrong Answer!\nCorrect Answer is Option :> 3\nObtained marks ::> " << count;
+        break;
+        }
+    }
+    if(count>=3){
+        cout<<endl<<endl<<"Are you Ready for the next round ";
+        cin>>n;
+        if(n=='y' || n=='Y')
+        fun2();
+    }
+        else{
+        cout<<endl<<"Thanks to visit us "<<endl;
+        cout<<endl<<"              Warninng !         "<<endl<<"     Obtained marks minimum 3 out of 4 then Next round Unlock "<<endl<<endl;
+        }    
+}
+void fun()
+{char n;
+    int count=0;
+    int  arr[5];
+    for(int i=1; i<=1; i++){
+        cout << " Which of the following is used to print something in C++?" << endl;
+      cout << "1) print()" << endl;
+     cout << "2) printf()" << endl;
+    cout << "3) cout" << endl;
+        cout << "4) echo" << endl;
+        cin>>arr[i];
+        if(arr[i]==3){
+            true;
+            cout<<"Correct Answer !"<<endl;
+        count++;    
+        }
+             else
+             {
+      cout<<"Wrong Answer "<<endl;
+     cout<<"Correct Answer is "<<"Opption :> 3"<<endl;
+     cout<<endl<<"Obtained marks     ::> "<<count;
+     break;
+                    } 
+       cout << "What is the size of an int in C++?" << endl;
+cout << "1) 2 bytes" << endl;
+  cout << "2) 4 bytes" << endl;
+        cout << "3) 8 bytes" << endl;
+cout << "4) 1 byte" << endl;
+    cin>>arr[i];
+     if(arr[i]==2){
+          true;
+                cout<<"Correct Answer !"<<endl;
+        
+                count++;     }
+ else{
+              cout<<"Wrong Answer "<<endl;
+               cout<<"Correct Answer is "<<"Opption :> 2"<<endl;
+               cout<<"Obtained marks     ::> "<<count; 
+               break;
+                               } 
+  cout << " Which of the following is the correct way to declare a variable in C++?" << endl;
+cout << "1) int x;" << endl;
+    cout << "2) x int;" << endl;
+ cout << "3) declare int x;" << endl;
+    cout << "4) var x int;" << endl;
+    cin>>arr[i];
+    if(arr[i]==1){
+        true;
+        cout<<"Correct Answer !"<<endl;
+        count++;  }
+         else
+         {
+             cout<<"Wrong Answer "<<endl;
+             cout<<"Correct Answer is "<<"Opption :> 1"<<endl;
+             cout<<endl<<"Obtained marks     ::> "<<count;
+         break;
+                } 
+  cout << " Which symbol is used for comments in C++?" << endl;
+    cout << "1) //" << endl;
+    cout << "2) #!" << endl;
+    cout << "3) /* */" << endl;
+    cout << "4) Both a and c" << endl;
+    cin>>arr[i];
+    if(arr[i]==4){
+        true;
+        cout<<"Correct Answer !"<<endl;
+        count++; }
+         else
+         {
+             cout<<"Wrong Answer "<<endl;
+             cout<<"Correct Answer is "<<"Opption :> 4"<<endl;
+             cout<<endl<<"Obtained marks     ::> "<<count;
+             break;
+                } 
+ cout << " Which of the following is used for multiplication in C++?" << endl;
+    cout << "1) +" << endl;
+    cout << "2) *" << endl;
+    cout << "3) /" << endl;
+    cout << "4) %" << endl;
+    cin>>arr[i];
+    if(arr[i]==2){
+        true;
+        cout<<"Correct Answer !"<<endl;
+        count++; }
+         else    {
+             cout<<"Wrong Answer "<<endl;
+             cout<<"Correct Answer is "<<"Opption :> 2"<<endl;
+             cout<<endl<<"Obtained marks     ::> "<<count;
+             break;
+                } 
+ cout << "What is the correct way to write a 'while' loop in C++?" << endl;
+    cout << "1) while (condition) { }" << endl;
+    cout << "2) while condition { }" << endl;
+    cout << "3) do { while }" << endl;
+    cout << "4) for while (condition) { }" << endl;
+    cin>>arr[i];
+    if(arr[i]==1){
+        true;
+        cout<<"Correct Answer !"<<endl;
+        count++;  }
+         else
+         {
+             cout<<"Wrong Answer "<<endl;
+             cout<<"Correct Answer is "<<"Opption :> 1"<<endl;
+             cout<<endl<<"Obtained marks y   ::> "<<count;
+             break;
+                }
+
+                 cout << "Which of the following is used to input data in C++?" << endl;
+    cout << "1) scanf()" << endl;
+    cout << "2) cin" << endl;
+    cout << "3) input()" << endl;
+    cout << "4) get()" << endl;
+cin>>arr[i];
+if(arr[i]==2){
+        true;
+        cout<<"Correct Answer !"<<endl;
+        count++;  }
+else  {
+             cout<<"Wrong Answer "<<endl;
+             cout<<"Correct Answer is "<<"Opption :> 2"<<endl;
+             cout<<endl<<"Obtained marks     ::> "<<count;
+             break;
+                }
+        cout<<"How many language of computer basics "<<endl;
+        cout<<"1) Only one language"<<endl;
+        cout<<"2) two language"<<endl;
+        cout<<"3) three language"<<endl;
+        cout<<"4) four  language"<<endl;
+        
+        cin>>arr[i];
+        if(arr[i]==2){
+       true;
+cout<<"Correct Answer !"<<endl;
+count++;  }
+        else
+        {
+            cout<<"Wrong Answer "<<endl;
+            cout<<"Correct Answer is "<<"2"<<endl;
+            cout<<endl<<"Obtainedl marks     ::> "<<count;
+            break;
+               }       cout<<"Which of the following is the correct syntax for declaring a pointer in C++? a)"<<endl<<"1) int *ptr"<<endl;
+       cout<<" 2) ptr int*"<<endl;
+       cout<<" 3) int ptr*"<<endl;
+       cout<<" 4) pointer int*"<<endl;
+       cin>>arr[i];
+        if(arr[i]==1){
+            true;
+     cout<<"Correct Answer !"<<endl;
+     count++;     }
+             else
+             {
+                 cout<<"Wrong Answer "<<endl;
+                 cout<<"Correct Answer is "<<"2"<<endl;
+                 cout<<endl<<"Obtained marks     ::> "<<count;
+                 break;
+                    }
+        
+        cout<<"What will be the output of the following code?"<<endl;
+        cout<<"int x = 5"<<endl<<"cout << ++x"<<endl;
+ cout<<"1) 4"<<endl<<"2) 5"<<endl<<"3) 6"<<endl<<"4) Error"<<endl;
+ cin>>arr[i];
+ if(arr[i]==3){
+true;
+cout<<"Correct Answer !"<<endl;
+count++; }
+ else
+ {
+     cout<<"Wrong Answer "<<endl;
+     cout<<"Correct Answer is "<<"3"<<endl;
+     cout<<endl<<"Total marks     ::> "<<count;
+     break;
+        } 
+    
+
+        cout << " Which of the following is used to dynamically allocate memory in C++?" << endl;
+        cout << "1) malloc()" << endl;
+        cout << "2) calloc()" << endl;
+        cout << "3) new" << endl;
+        cout << "4) alloc()" << endl;
+       
+        if(arr[i]==3){
+            true;
+            cout<<"Correct Answer !"<<endl;
+            count++;     }
+             else
+             {
+                 cout<<"Wrong Answer "<<endl;
+                 cout<<"Correct Answer is "<<"3"<<endl;
+                 cout<<endl<<"Obtained marks     ::> "<<count;
+                 break;
+                    } 
+            cout << " What is the default value of a boolean variable in C++?" << endl;
+        cout << "1) 0" << endl;
+                    cout << "2) 1" << endl;                cout << "3) False" << endl;
+        cout << "4) True" << endl;
+             cin>>arr[i];
+
+ if(arr[i]==1){
+            true;
+            cout<<"Correct Answer !"<<endl;
+            count++; }
+             else
+             {
+                 cout<<"Wrong Answer "<<endl;
+                 cout<<"Correct Answer is "<<"Opption :> 1"<<endl;
+                 cout<<endl<<"Obtained marks     ::> "<<count;
+                 break;
+                    } 
+            cout << " Which of the following is the correct syntax for a for loop in C++?" << endl;
+    cout << "1) for(int i=0; i<10; i++)" << endl;
+    cout << "2) for(int i=0, i<10, i++)" << endl;
+    cout << "3) for i=0 to 10" << endl;
+    cout << "4) for(i=0, i<10, i++)" << endl;
+    
+ if(arr[i]==1){
+    true;
+    cout<<"Correct Answer !"<<endl;
+    count++; }
+     else
+     {
+         cout<<"Wrong Answer "<<endl;
+         cout<<"Correct Answer is "<<"Opption :> 1"<<endl;
+         cout<<endl<<"Obtained marks     ::> "<<count;
+         break;
+            } 
+
+
+            cout << " Which of the following is a correct way to initialize an array in C++?" << endl;
+   cout << "1) int arr = {1, 2, 3, 4};" << endl;
+            cout << "2) int arr[4] = {1, 2, 3, 4};" << endl;
+     cout << "3) int[4] arr = {1, 2, 3, 4};" << endl;
+            cout << "4) int arr[4]; arr = {1, 2, 3, 4};" << endl;
+cin>>arr[i];
+            if(arr[i]==2){
+                true;
+                cout<<"Correct Answer !"<<endl<<endl;
+                count++;
+                cout<<"Conguralation "<<endl<<endl;   
+                cout<<endl<<"Obtained marks     ::> "<<count;
+              }
+                 else
+                 {
+                     cout<<"Wrong Answer "<<endl;
+                     cout<<"Correct Answer is "<<"Opption :> 2"<<endl;
+                     cout<<endl<<"Obtained marks    ::> "<<count;
+                    
+                     break;
+                        }
+    }       
+
+    if(count>=12){
+cout<<endl<<endl<<"Are you Ready for the next round ";
+cin>>n;
+if(n=='y' || n=='Y')
+fun1();}
+else{
+cout<<endl<<"Thanks to visit us "<<endl;
+cout<<endl<<"              Warninng !         "<<endl<<"     Obtained marks minimum 12 out of 14 then Next round Unlock "<<endl<<endl;
+}
+}
+
+
+int main(){
+    int count;
+    char n;
+cout<<endl<<endl<<"Quiz Test C++"<<endl<<endl;
+cout<<"Are you Ready For the test  ::>           ";
+cin>>n;
+if(n=='y' || n=='Y' ){
+    fun();
+}
+else
+cout<<endl<<endl<<"Please Enter         >>   Y    ::       Y      ";
+
+
+    return 0;
+}
