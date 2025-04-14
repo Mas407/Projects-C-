@@ -5,6 +5,7 @@ void fun3(){
     cout<<endl<<"Comming soon Inshallaha as soon as possible";
 }
 
+
 void fun2(){int count=0;
     char n;
     int arr[5];
